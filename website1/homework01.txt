@@ -1,0 +1,21 @@
+
+
+
+learn css rules:
+
+box model
+box sizing
+display
+width
+height
+color
+background
+padding
+margin
+css units: px vs %
+
+
+
+
+task todo: build this form
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form

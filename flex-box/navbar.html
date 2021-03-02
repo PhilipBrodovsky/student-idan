@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			.navbar {
+				background: black;
+				color: white;
+				display: flex;
+				justify-content: space-between;
+			}
+			.link {
+				padding: 8px;
+			}
+
+			.flex {
+				display: flex;
+			}
+
+			section {
+				border: 1px solid black;
+			}
+
+			.left {
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+			}
+			.right {
+				width: 75%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="navbar">
+			<div class="flex">
+				<div class="link">item</div>
+				<div class="link">item</div>
+				<div class="link">item</div>
+			</div>
+			<div class="link">item</div>
+		</div>
+
+		<main class="flex">
+			<section class="left">
+				<div>
+					<h4>header</h4>
+					<div class="item">item</div>
+					<div class="item">item</div>
+					<div class="item">item</div>
+					<div class="item">item</div>
+					<div class="item">item</div>
+				</div>
+				<div>
+					<h4>header</h4>
+					<div class="item">item</div>
+					<div class="item">item</div>
+					<div class="item">item</div>
+					<div class="item">item</div>
+					<div class="item">item</div>
+				</div>
+				<div>
+					<h4>header</h4>
+					<div class="item">item</div>
+					<div class="item">item</div>
+					<div class="item">item</div>
+					<div class="item">item</div>
+					<div class="item">item</div>
+				</div>
+			</section>
+			<section class="right">right</section>
+		</main>
+	</body>
+</html>

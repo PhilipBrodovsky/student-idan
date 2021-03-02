@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<!-- 
+        box model
+         box sizing
+         display
+         css units: px vs %
+ -->
+		<style>
+			/* 
+				display: inline - width base on content, dont have new line
+				display: block - width 100%,  have new line
+
+         */
+
+			html,
+			body {
+				margin: 0;
+				height: 100%;
+			}
+
+			.box {
+				box-sizing: border-box;
+				width: 100px; /* 100px content + padding + border */
+				height: 100px;
+				border: 1px solid black;
+				padding: 10px;
+			}
+			.box2 {
+				width: 100px; /* only content will be 100px*/
+				height: 100px;
+				border: 1px solid black;
+				padding: 10px;
+			}
+
+			.box3 {
+				width: 50%; /* 100% from parent width*/
+				height: 50%; /* 100% from parent height*/
+				border: 1px solid black;
+			}
+			.box4 {
+				width: 50%; /* 100% from parent width*/
+				height: 50%;
+				border: 1px solid black;
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box3">
+			<div class="box4"></div>
+		</div>
+		<hr />
+		<div>block element</div>
+		<div>block element</div>
+
+		<span>inline</span>
+		<span>inline</span>
+		<hr />
+		<div class="box">1</div>
+		<div class="box2">2</div>
+	</body>
+</html>

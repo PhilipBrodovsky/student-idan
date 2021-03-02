@@ -1,0 +1,16 @@
+
+
+
+learn more about flex:
+
+link where yo can learn
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+link wher you can test your skil and learn
+https://flexboxfroggy.com/#he 
+
+
+
+task to do: (use flex!!)
+
+https://www.w3schools.com/howto/tryhow_make_a_website.htm
