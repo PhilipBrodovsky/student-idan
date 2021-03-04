@@ -6,6 +6,9 @@ btn.addEventListener('click', function () {
 	console.log('btn clicked');
 });
 
+
+// SHALOM IDAN
+
 const div = document.getElementById('div');
 div.addEventListener('click', onClick);
 // send onClick to addEventListener ,
