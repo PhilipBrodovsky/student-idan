@@ -1,0 +1,34 @@
+
+
+
+
+.big {
+   padding: 16px;
+}
+
+
+
+.red {
+   color: red;
+}
+
+
+
+.flex {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+
+button.small {
+   padding: 4px 8px
+}
+
+button.medium {
+   padding: 6px 12px;
+}
+
+button.large {
+   padding: 8px 16px;
+}
